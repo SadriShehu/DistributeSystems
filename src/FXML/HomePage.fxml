@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomePageController">
+   <children>
+      <Pane minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" style="-fx-background-color: #34495e;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="80.0" layoutX="60.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pics/main-template-rks-logo.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btnFillimi" layoutX="25.0" layoutY="200.0" onAction="#btnFillimiAction" prefWidth="150.0" text="Fillimi" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnQytet" layoutX="25.0" layoutY="230.0" onAction="#btnQytetAction" prefWidth="150.0" text="Qytetet" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnFshat" layoutX="25.0" layoutY="260.0" onAction="#btnFshatAction" prefWidth="150.0" text="Fshatërat" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnRruge" layoutX="25.0" layoutY="290.0" onAction="#btnRrugeAction" prefWidth="150.0" text="Rrugët" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="45.0" layoutY="170.0" text="Administrimi" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="120.0" prefWidth="132.0" text="Sistemi për regjistrimin" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="140.0" prefWidth="164.0" text="e adresave të vendbanimeve" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="25.0" layoutY="380.0" prefWidth="150.0" text="Anëtarët" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="57.0" layoutY="350.0" text="Platforma" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnKomuniko" layoutX="25.0" layoutY="410.0" onAction="#btnKomunikoAction" prefWidth="150.0" text="Komuniko" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="25.0" layoutY="470.0" prefWidth="150.0" style="-fx-border-color: #16a085;" text="Profili Im" textFill="#95a5a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnCkyqu" layoutX="25.0" layoutY="510.0" onAction="#btnCkyquAction" prefWidth="150.0" style="-fx-background-color: #16a085;" text="Çkyqu" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="23.0" layoutY="566.0" text="Perdoruesi:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblUser" layoutX="99.0" layoutY="566.0" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="holderPane" layoutX="200.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

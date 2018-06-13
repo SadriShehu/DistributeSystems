@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #34495e;;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.serverMainController">
+   <children>
+      <TextArea fx:id="txtServerLog" disable="true" layoutX="14.0" layoutY="14.0" prefHeight="515.0" prefWidth="775.0" style="-fx-text-fill: BLACK;" />
+      <JFXButton fx:id="btnKyqu" layoutX="574.0" layoutY="550.0" onAction="#btnKyquAction" prefWidth="100.0" style="-fx-background-color: #16a085;" text="Kyçu" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtPort" focusColor="#95a5a6" layoutX="14.0" layoutY="550.0" prefHeight="30.0" prefWidth="200.0" promptText="Sheno Portin" style="-fx-prompt-text-fill: #95a5a6; -fx-text-fill: #95a5a6;" unFocusColor="#7f8c8d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnAnulo" layoutX="686.0" layoutY="549.0" onAction="#btnCkyquAction" prefWidth="100.0" style="-fx-border-color: #16a085;" text="Anulo" textFill="#bdc3c7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

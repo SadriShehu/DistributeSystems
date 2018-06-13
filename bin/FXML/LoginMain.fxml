@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #34495e;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ControllerLogin">
+   <children>
+      <JFXTextField fx:id="txtServer" focusColor="#95a5a6" layoutX="254.0" layoutY="213.0" prefWidth="250.0" promptText="  Server IP" style="-fx-prompt-text-fill: #95a5a6; -fx-text-fill: WHITE;" unFocusColor="#7f8c8d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtPort" focusColor="#95a5a6" layoutX="254.0" layoutY="263.0" prefWidth="250.0" promptText="  Porti" style="-fx-prompt-text-fill: #95a5a6; -fx-text-fill: WHITE;" unFocusColor="#7f8c8d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtPerdoruesi" focusColor="#95a5a6" layoutX="254.0" layoutY="313.0" prefWidth="250.0" promptText="  Përdoruesi" style="-fx-prompt-text-fill: #95a5a6; -fx-text-fill: WHITE;" unFocusColor="#7f8c8d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="txtFjalekalimi" focusColor="#95a5a6" layoutX="254.0" layoutY="363.0" prefWidth="250.0" promptText="  Fjalëkalimi" style="-fx-prompt-text-fill: #95a5a6; -fx-text-fill: WHITE;" unFocusColor="#7f8c8d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton fx:id="btnKyqu" layoutX="424.0" layoutY="413.0" onAction="#loginAction" prefWidth="80.0" style="-fx-background-color: #16a085;" text="Kyçu" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnAnulo" layoutX="334.0" layoutY="413.0" onAction="#btnAnuloAction" prefWidth="80.0" style="-fx-border-color: #16a085;" text="Anulo" textFill="#bdc3c7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnNdryshoFjalekalimin" layoutX="354.0" layoutY="456.0" text="Keni harruar fjalëkalimin?" textFill="#bdc3c7" />
+      <JFXProgressBar fx:id="progress" layoutX="254.0" layoutY="498.0" prefHeight="1.0" prefWidth="250.0" />
+      <ImageView fitHeight="89.0" fitWidth="80.0" layoutX="136.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/main-template-rks-logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="55.0" text="Republika e Kosovës" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="125.0" text="Sistemi për regjistrimin e adresave të vendbanimeve" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="85.0" text="Ministria e punëve të brendëshme" textFill="#bdc3c7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="217.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/account_circle_white_60x60.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="217.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/https_white_54x54.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblMissmatch" layoutX="251.0" layoutY="490.0" text="Perdoruesi nuk ekziston ose kredencialet gabim!" textFill="RED" />
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="217.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/important_devices_white_72x72.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="41.0" layoutX="217.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/server-with-the-earth.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="275.0" prefWidth="330.0" style="-fx-background-color: #34495e;;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.client">
+   <children>
+      <TextArea fx:id="txtServerLog" editable="false" layoutX="15.0" layoutY="14.0" prefHeight="200.0" prefWidth="300.0" style="-fx-text-fill: BLACK;" />
+      <JFXButton fx:id="btnAnulo" layoutX="215.0" layoutY="229.0" onAction="#btnCkyquAction" prefWidth="100.0" style="-fx-border-color: #16a085;" text="Anulo" textFill="#bdc3c7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnKyqu" layoutX="15.0" layoutY="230.0" onAction="#btnKyquAction" prefWidth="100.0" style="-fx-background-color: #16a085;" text="Kyçu" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ssheh/Downloads/jfoenix-9.0.4.jar" sourcepath="C:/Users/ssheh/Downloads/jfoenix-9.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssheh/Downloads/mysql-connector-java-5.1.42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssheh/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar" sourcepath="C:/Users/ssheh/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.slf4j"/>
+			<attribute name="maven.artifactId" value="slf4j-api"/>
+			<attribute name="maven.version" value="1.5.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
